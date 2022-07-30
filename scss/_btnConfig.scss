@@ -1,0 +1,24 @@
+@import "config";
+/* Edit text of the button */
+button{
+    border: 3px solid #000000;
+    font-family: $primary-font-stack;
+    text-shadow: $text-shadow-color;
+    background-color: $bg-color;
+    color: $primary-font-color;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: $cursor;
+    display: block;
+    width: 200px;
+    text-align: $text-align;
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+/* Make button change when mouse hovers */
+#start-screen a:hover, #game-over a:hover, #game-win a:hover{
+    background-color: $primary-font-color;
+    color: $bg-color;
+
+}
