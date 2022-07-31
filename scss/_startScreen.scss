@@ -1,0 +1,33 @@
+@import "config";
+
+#start-screen, #game-over, #game-win{
+    font-family:$secondary-font-stack;
+    text-shadow: $text-shadow-color;
+    color: $secondary-font-color;
+    padding: 20px;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-top:  -50px;
+    margin-left: -140px;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    
+    &#start-screen a:hover, #game-over a:hover, #game-win a:hover{
+        background-color: $primary-font-color;
+        color: $primary-bg-color;
+    }
+    &.screen h1 {
+        font-family: $primary-font-stack;
+        color: $primary-font-color;
+        text-shadow: $text-shadow-color;
+        position: relative;
+    }
+    
+    &.screen p {
+        font-family: $primary-font-stack;
+        text-shadow: $text-shadow-color;
+        position: relative;
+    }
+}

@@ -1,0 +1,71 @@
+button {
+  border: 3px solid #000000;
+  font-family: Press Start 2P, cursive;
+  text-shadow: 4px 0px black;
+  background-color: #1bafdb;
+  color: #f0ff1d;
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  display: block;
+  width: 200px;
+  text-align: center;
+  font-size: 1.2em;
+  display: inline-block;
+}
+
+#scoreboard, #scorecounter, #difficultyboard, #difficultycounter {
+  font-family: Press Start 2P, cursive;
+  color: #f0ff1d;
+  background-color: #1bafdb;
+  text-shadow: 4px 0px black;
+  padding: 5px;
+}
+
+#start-screen, #game-over, #game-win {
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  text-shadow: 4px 0px black;
+  color: #ffffff;
+  padding: 20px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -140px;
+  height: 200px;
+  width: 250px;
+  text-align: center;
+}
+#start-screen#start-screen a:hover, #start-screen #game-over a:hover, #start-screen #game-win a:hover, #game-over#start-screen a:hover, #game-over #game-over a:hover, #game-over #game-win a:hover, #game-win#start-screen a:hover, #game-win #game-over a:hover, #game-win #game-win a:hover {
+  background-color: #f0ff1d;
+  color: #1bafdb;
+}
+#start-screen.screen h1, #game-over.screen h1, #game-win.screen h1 {
+  font-family: Press Start 2P, cursive;
+  color: #f0ff1d;
+  text-shadow: 4px 0px black;
+  position: relative;
+}
+#start-screen.screen p, #game-over.screen p, #game-win.screen p {
+  font-family: Press Start 2P, cursive;
+  text-shadow: 4px 0px black;
+  position: relative;
+}
+
+body {
+  color: #ffffff;
+  background-image: url("Assets/R.png");
+}
+
+nav {
+  font-family: Press Start 2P, cursive;
+  color: #f0ff1d;
+  background-color: #1bafdb;
+  text-shadow: 4px 0px black;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

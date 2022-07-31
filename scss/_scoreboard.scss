@@ -1,0 +1,9 @@
+@import "config";
+
+#scoreboard, #scorecounter, #difficultyboard, #difficultycounter{
+    font-family: $primary-font-stack;
+    color: $primary-font-color;
+    background-color: $primary-bg-color;
+    text-shadow: $text-shadow-color;
+    padding: 5px;
+}
